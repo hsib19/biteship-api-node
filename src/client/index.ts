@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import { BiteshipErrorResponse, ClientRequestOptions } from './types';
 
 export class BiteshipClient {
