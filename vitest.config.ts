@@ -8,7 +8,13 @@ export default defineConfig({
         exclude: ['dist', 'node_modules'],
         coverage: {
             provider: 'istanbul',
-            reporter: ['text', 'json', 'html'],
+            reporter: ['text', 'json', 'html', 'lcov'],
+            thresholds: {
+                lines: 100,
+                functions: 100,
+                branches: 100,
+                statements: 100,
+            },
         },
     },
 });
