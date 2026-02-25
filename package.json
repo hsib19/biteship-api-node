@@ -1,7 +1,7 @@
 {
   "name": "biteship-api-node",
   "version": "1.0.0",
-  "description": "Node.js SDK for integrating with the Biteship API",
+  "description": "Unofficial Node.js SDK for integrating with the Biteship API",
   "main": "dist/biteship.cjs.js",
   "module": "dist/biteship.esm.js",
   "types": "dist/index.d.ts",
