@@ -10,7 +10,6 @@
     "build:watch": "rollup -c -w",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "prepare": "husky install",
     "test": "vitest",
     "test:cov": "vitest run --coverage"
   },
@@ -20,6 +19,9 @@
   "type": "commonjs",
   "dependencies": {
     "tslib": "^2.8.1"
+  },
+  "engine": {
+    "node": ">=18"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
