@@ -38,7 +38,7 @@ export interface TrackingHistory {
     note: string;
     service_type?: string;
     updated_at: string;
-    status: TrackingStatus;
+    status: string;
 }
 
 export interface GetTrackingResponse {
