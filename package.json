@@ -1,5 +1,5 @@
 {
-  "name": "@hsib19/biteship-api-node",
+  "name": "biteship-api-node",
   "version": "1.0.0",
   "description": "Unofficial Node.js SDK for integrating with the Biteship API",
   "main": "dist/biteship.cjs.js",
